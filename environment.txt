@@ -1,0 +1,7 @@
+Validated release environment
+Python 3.10
+PyTorch 2.4.1+cu124
+NumPy 2.2.6
+opencv-python-headless 4.10.0.84
+pytest 8.3.5
+GPU NVIDIA L20 46 GiB (formal experiment host)

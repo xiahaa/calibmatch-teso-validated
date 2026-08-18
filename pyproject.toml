@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calibmatch-teso-validated"
+version = "0.1.0"
+description = "Validated subpixel endpoint refinement for a rotation-only TESO-kernel tracker"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "opencv-python-headless>=4.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
