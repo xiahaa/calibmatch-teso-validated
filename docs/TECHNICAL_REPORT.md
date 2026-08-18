@@ -1,9 +1,13 @@
 # 弱标定双目、在线校正与标定感知匹配：系列探索技术报告
 
-**报告日期：** 2026-08-18  
-**实验周期：** 2026-08-03 至 2026-08-18  
-**主要计算平台：** NVIDIA L20 46 GB；早期实验另使用 RTX 4090 服务器  
-**报告性质：** 内部技术报告；记录已验证结果、失败路线、审计修正和后续研究边界  
+**报告日期：** 2026-08-18
+
+**实验周期：** 2026-08-03 至 2026-08-18
+
+**主要计算平台：** NVIDIA L20 46 GB；早期实验另使用 RTX 4090 服务器
+
+**报告性质：** 内部技术报告；记录已验证结果、失败路线、审计修正和后续研究边界
+
 **当前项目状态：** 暂停。仅保留经验证的 CalibMatch 子结果及必要复现资产。
 
 ## 摘要
@@ -399,4 +403,3 @@ rectification 的主要目标是纵向对齐和下游 stereo 可用性；essenti
 **报告结论状态：** 部分已验证。CalibMatch endpoint refinement、官方 TESO parity、LightGlue/CoTracker 对照和多项几何单测具有直接 artifact 支持；其余内容按文中标签区分探索性、失败 gate、未运行或已推翻结果。本报告不是论文投稿稿件，也不把负结果转换为未经支持的普遍不可能性结论。
 
 **Material Passport：** ARS academic-research-suite / technical report / 2026-08-18 / PARTIALLY VERIFIED / `stereo_calibration_exploration_report_v1`。
-
