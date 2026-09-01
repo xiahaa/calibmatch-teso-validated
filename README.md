@@ -8,6 +8,13 @@ paused:
 > rotation-only, TESO-kernel stereo extrinsic tracker when all one-to-one
 > matches are retained.
 
+The broader research history, including the raw-metric-stereo, feature
+rectification, tooling-posterior, ToolE-Track, VGGT, direct-calibration,
+CalibMatch, and budget-refinement experiments, is documented in
+[`docs/TECHNICAL_REPORT.md`](docs/TECHNICAL_REPORT.md). The report explicitly
+separates validated results from exploratory, failed-gate, unexecuted, and
+superseded conclusions.
+
 On 20 registered CARLA validation sequences, the fixed seed-37 comparison
 `raw_all -> refined_all` produced:
 
